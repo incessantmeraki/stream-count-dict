@@ -1,4 +1,4 @@
-## stream-count-dict
+# stream-count-dict
 
 takes readable stream as a parameter and returns an object dictionary which represents word count. 
 
@@ -7,7 +7,7 @@ takes readable stream as a parameter and returns an object dictionary which repr
 ### Installation
 
 ```sh
-  $git clone https://github.com/incessantmeraki/stream-count-dict
+  $ git clone https://github.com/incessantmeraki/stream-count-dict
 ```
 
 ### Example
