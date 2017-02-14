@@ -8,6 +8,7 @@ takes readable stream as a parameter and returns an object dictionary which repr
 
 ```sh
   $ git clone https://github.com/incessantmeraki/stream-count-dict
+  $ npm install
 ```
 
 ### Example
