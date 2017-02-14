@@ -5,19 +5,24 @@ takes readable stream as a parameter and returns an object dictionary which repr
 ## Usage
 
 ### Installation
+
 ```sh
-  $ npm install stream-count-dict
+  $git clone https://github.com/incessantmeraki/stream-count-dict
 ```
 
 ### Example
 
 ```js
   var fs = require('fs')
-  var sdict = require('stream-count-dict)
+  var sdict = require('index.js')
   
-  console.log(sdict(fs.createReadStream(__filename)))
+  var file = fs.createReadStream(__filename)
+  var result = sdict (file, function(dict) {
+    console.log(JSON.parse(dict))
+  })
 ```
 
-##License
+## License
+
 MIT
 
