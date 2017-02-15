@@ -3,6 +3,6 @@
   
   var file = fs.createReadStream(__filename)
   var result = sdict (file, function(dict) {
-    console.log(JSON.parse(dict))
+    console.log(dict)
   })
 

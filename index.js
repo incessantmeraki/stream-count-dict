@@ -8,7 +8,7 @@ module.exports = function (rStream, callback ) {
       dict[data]  = dict[data] + 1 || 1
     })
     .on('end', function() {
-      callback(JSON.stringify(dict))
+      callback(dict)
     })
 }
 

@@ -1,6 +1,6 @@
 # stream-count-dict
 
-takes readable stream as a parameter and returns an object dictionary which represents word count. 
+takes readable stream as a parameter and returns an dictionary(object) which represents word count. 
 
 ## Usage
 
@@ -19,7 +19,7 @@ takes readable stream as a parameter and returns an object dictionary which repr
   
   var file = fs.createReadStream(__filename)
   var result = sdict (file, function(dict) {
-    console.log(JSON.parse(dict))
+    console.log(dict)
   })
 ```
 
